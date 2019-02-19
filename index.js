@@ -12,5 +12,5 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('index');
 });
-app.listen(4000||process.env.PORT);
+app.listen(process.env.PORT||4000);
 console.log('4000 is the magic port');
