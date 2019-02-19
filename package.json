@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/velindia/udhayam/issues"
   },
-  engines:{
+  "engines":{
      "node":"^8.10.0",
      "npm":"^3.5.2"
   },
